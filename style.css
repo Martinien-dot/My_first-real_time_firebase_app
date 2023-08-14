@@ -1,0 +1,71 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(171, 198, 224);
+    user-select: none;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 20px auto;
+}
+
+input {
+    color: rgb(14, 13, 13);
+    background-color: rgb(247, 242, 242);
+    border: 0;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: large;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+button {
+    border: none;
+    background-color: rgb(236, 46, 151);
+    font-family: 'Rubik', sans-serif;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+
+li {
+    color: rgb(14, 13, 13);
+    background-color: rgb(247, 242, 242);
+    border: 0;
+    border-radius: 10px;
+    font-size: large;
+    text-align: center;
+    padding: 13px;
+    margin: 2px;
+    flex-grow: 1;
+}
+
+#shopping-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+button:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+ul li:hover {
+    background-color: burlywood;
+    cursor: pointer;
+}
